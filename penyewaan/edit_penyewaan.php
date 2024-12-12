@@ -12,7 +12,7 @@ $penyewa = $query->fetch_assoc();
 </head>
 
 <body>
-	<h3>Edit Data PEnyewaan</h3>
+	<h3>Edit Data Penyewaan</h3>
 	<form action="proses_edit.php" method="POST">
 		<input type="hidden" name="id" value="<?php echo $penyewa['id']; ?>">
 		<table border="0">
@@ -24,7 +24,7 @@ $penyewa = $query->fetch_assoc();
 				</td>
 			</tr>
 			<tr>
-				<td>Genre</td>
+				<td>Nama Film</td>
 				<td> 
 					<input type="text" name="nama_film" 
 						value="<?php echo $penyewa['nama_film']; ?>"> 
